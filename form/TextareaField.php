@@ -1,6 +1,6 @@
 <?php
 
-namespace App\core\form;
+namespace too\phpmvc\form;
 
 class TextareaField extends BaseField
 {

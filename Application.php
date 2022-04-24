@@ -1,14 +1,14 @@
 <?php 
 
-namespace App\core;
+namespace too\phpmvc;
 
-use App\core\Database;
-use App\core\db\Database as DbDatabase;
-use App\core\db\DbModel as DbDbModel;
-use app\core\DbModel;
+use too\phpmvc\Database;
+use too\phpmvc\db\Database as DbDatabase;
+use too\phpmvc\db\DbModel as DbDbModel;
+use too\phpmvc\DbModel;
 use LDAP\Result;
-use App\core\Response;
-use App\core\Session;
+use too\phpmvc\Response;
+use too\phpmvc\Session;
 use App\models\User;
 
 class Application
@@ -81,7 +81,7 @@ class Application
         return $this->controller;
     }
 
-    public function setController(\app\core\Controller $controller): void
+    public function setController(\too\phpmvc\Controller $controller): void
     { 
         $this->controller = $controller;
     }

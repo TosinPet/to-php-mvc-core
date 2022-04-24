@@ -1,9 +1,9 @@
 <?php
 
-namespace App\core;
+namespace too\phpmvc;
 
-use App\core\db\DbModel as DbDbModel;
-use App\core\DbModel;
+use too\phpmvc\db\DbModel as DbDbModel;
+use too\phpmvc\DbModel;
 
 abstract class UserModel extends DbDbModel
 {

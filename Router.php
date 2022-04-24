@@ -1,13 +1,13 @@
 <?php
 
-namespace App\core;
+namespace too\phpmvc;
 
-use App\core\Response;
+use too\phpmvc\Response;
 use App\controllers\AuthController;
-use App\core\Application;
-use App\core\Controller;
-use App\core\exception\Forbiddenexception;
-use App\core\exception\NotFoundException;
+use too\phpmvc\Application;
+use too\phpmvc\Controller;
+use too\phpmvc\exception\Forbiddenexception;
+use too\phpmvc\exception\NotFoundException;
 
 class Router
 {
